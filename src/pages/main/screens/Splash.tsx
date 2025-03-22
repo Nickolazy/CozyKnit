@@ -2,7 +2,7 @@ import Button from "../../../components/Button"
 
 const Splash = () => {
   return (
-    <div className="h-[calc(100vh-(var(--header-height)))]">
+    <div id="splash" className="h-[calc(100vh-(var(--header-height)))]">
       <div className="relative bg-beige h-[calc(100vh-(var(--header-height)))] lg:h-[calc(80vh-(var(--header-height)))]">
         <div className="container relative h-full flex max-sm:justify-center items-center font-playfair select-none"> 
 
