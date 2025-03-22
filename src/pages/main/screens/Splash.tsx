@@ -2,7 +2,7 @@ import Button from "../../../components/Button"
 
 const Splash = () => {
   return (
-    <>
+    <div className="h-[calc(100vh-(var(--header-height)))]">
       <div className="relative bg-beige h-[calc(100vh-(var(--header-height)))] lg:h-[calc(80vh-(var(--header-height)))]">
         <div className="container relative h-full flex max-sm:justify-center items-center font-playfair select-none"> 
 
@@ -18,7 +18,7 @@ const Splash = () => {
           </div>
 
           
-          <img src="src/assets/img/static_images/main_page/knitted_heart.png" loading="lazy" 
+          <img src="src/assets/img/static_images/main_page/knittedHeart.png" loading="lazy" 
             className="max-lg:w-full h-[calc(100vh-(var(--header-height)))] absolute max-lg:inset-0 lg:right-0 lg:top-0 
               object-cover max-lg:blur-[2px]"
           />
@@ -32,8 +32,8 @@ const Splash = () => {
         </div>
       </div>
 
-      <div className="hidden lg:block w-full h-1/5 absolute bottom-0 bg-darkBeige -z-10"> </div>
-    </>
+      <div className="hidden lg:block w-full h-1/5 absolute bottom-0 bg-darkBeige -z-10"></div>
+    </div>
   )
 }
 

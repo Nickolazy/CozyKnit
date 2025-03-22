@@ -10,10 +10,14 @@ body {
   @apply font-poppins text-dark;
 }
 
+.container {
+  @apply max-w-[1920px] mx-auto px-9 lg:px-16 xl:px-20;
+}
+
 .btn-icon {
   @apply cursor-pointer active:scale-95;
 }
 
-.container {
-  @apply max-w-[1920px] mx-auto px-9 lg:px-16 xl:px-20;
+.italic-word {
+  @apply italic text-golden;
 }
