@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --header-height: 72px
+}
+
 body {
   @apply font-poppins text-dark;
 }
@@ -11,5 +15,5 @@ svg {
 }
 
 .container {
-  @apply max-w-[1920px] mx-auto;
+  @apply max-w-[1920px] mx-auto px-9 lg:px-16 xl:px-20;
 }

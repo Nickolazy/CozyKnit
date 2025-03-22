@@ -1,10 +1,11 @@
-import React from "react"
-import Header from "../components/Header"
+import Header from "../../components/Header"
+import Splash from "./screens/Splash"
 
 const MainPage = () => {
   return (
     <>
       <Header />
+      <Splash />
     </>
   )
 }

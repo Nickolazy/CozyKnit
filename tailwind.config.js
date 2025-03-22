@@ -16,6 +16,7 @@ export default {
         "green": "#212806",
         "golden": "#B28D5B",
         "beige": "#F5EEE6",
+        "darkBeige": "#D8C4A9",
         "milky": "#FCF8F3"
       }
     },

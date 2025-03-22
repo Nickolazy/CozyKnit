@@ -7,9 +7,9 @@ const Header = () => {
   const { t } = useTranslation()
 
   return (
-    <div className="bg-milky">
-      <div className="container flex justify-between px-8 py-5">
-        <div className="flex items-center gap-x-10 select-none">
+    <div className="h-[var(--header-height)] sticky top-0 bg-milky">
+      <div className="container flex justify-between py-5">
+        <div className="flex items-center gap-x-10 lg:gap-x-20 select-none">
           <div className="font-logo font-normal text-2xl text-green">
             CozyKnit
           </div>
