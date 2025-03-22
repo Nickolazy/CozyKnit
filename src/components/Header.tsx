@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next"
 
-import { ReactComponent as SearchIcon } from "../assets/img/icons/search.svg";
-import { ReactComponent as MenuIcon } from "../assets/img/icons/menu.svg";
+import { ReactComponent as SearchIcon } from "../assets/img/icons/search.svg"
+import { ReactComponent as MenuIcon } from "../assets/img/icons/menu.svg"
 
 const Header = () => {
   const { t } = useTranslation()
@@ -22,8 +22,8 @@ const Header = () => {
         </div>
 
         <div className="flex items-center gap-x-8 text-green">
-          <SearchIcon />
-          <MenuIcon className="md:hidden" />
+          <SearchIcon className="btn-icon" />
+          <MenuIcon className="md:hidden btn-icon" />
         </div>
       </div>
     </div>

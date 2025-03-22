@@ -10,7 +10,7 @@ body {
   @apply font-poppins text-dark;
 }
 
-svg {
+.btn-icon {
   @apply cursor-pointer active:scale-95;
 }
 

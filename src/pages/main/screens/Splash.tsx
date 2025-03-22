@@ -1,17 +1,38 @@
+import Button from "../../../components/Button"
+
 const Splash = () => {
   return (
     <>
-      <div className="relative bg-beige h-[calc(100vh-(var(--header-height)))]">
-        <div className="container h-full flex items-center font-playfair"> 
-          <p className="font-semibold text-6xl">
-            Ручная работа с душой и теплом
-          </p>
-          <p className="uppercase italic text-xl">
-            С любовью для ваших близких
-          </p>
+      <div className="relative bg-beige h-[calc(100vh-(var(--header-height)))] lg:h-[calc(80vh-(var(--header-height)))]">
+        <div className="container relative h-full flex max-sm:justify-center items-center font-playfair select-none"> 
+
+          <div className="flex flex-col items-center sm:items-end gap-y-5 z-10 text-lightBeige lg:text-green">
+            <p className="font-semibold text-4xl sm:text-5xl lg:text-6xl tracking-wide lg:tracking-normal">
+              Ручная работа с 
+              <br /> 
+              душой и теплом
+            </p>
+            <p className="uppercase font-bold italic text-base lg:text-xl">
+              С любовью для ваших близких
+            </p>
+          </div>
+
+          
+          <img src="src/assets/img/static_images/main_page/knitted_heart.png" loading="lazy" 
+            className="max-lg:w-full h-[calc(100vh-(var(--header-height)))] absolute max-lg:inset-0 lg:right-0 lg:top-0 
+              object-cover max-lg:blur-[2px]"
+          />
+
+          <div className="lg:hidden w-full h-[calc(100vh-(var(--header-height)))] absolute inset-0 bg-black opacity-60"></div>
+
+          <div className="absolute max-lg:right-9 bottom-40 lg:bottom-0 lg:translate-y-1/2 z-10">
+            <Button text="Откройте уют" icon="arrow" />
+          </div>
+
         </div>
       </div>
-      <div className="w-full h-1/5 absolute bottom-0 bg-darkBeige"> </div>
+
+      <div className="hidden lg:block w-full h-1/5 absolute bottom-0 bg-darkBeige -z-10"> </div>
     </>
   )
 }
