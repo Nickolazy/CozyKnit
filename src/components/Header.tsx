@@ -44,7 +44,7 @@ const Header = () => {
               Коллекция
             </Link>
             <Link 
-              to="yarn" 
+              to="yarnAbout" 
               smooth={IS_SMOOTH_SCROLL} 
               duration={DURATION_SCROLL}
               hashSpy={IS_HASH_SPY}

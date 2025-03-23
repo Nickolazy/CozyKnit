@@ -13,11 +13,13 @@ export default {
       },
       colors: {
         "dark": "#222222",
+        "lightGreen": "#424928",
         "green": "#212806",
         "golden": "#B28D5B",
         "lightBeige": "#F0E7D8",
         "beige": "#F5EEE6",
         "darkBeige": "#D8C4A9",
+
         "milky": "#FCF8F3"
       }
     },

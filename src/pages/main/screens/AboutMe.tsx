@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutMe = () => {
   return (
-    <div id="aboutMe" className="bg-white text-xl sm:text-2xl xl:text-3xl 2xl:text-4xl">
+    <div id="aboutMe" className="bg-white text-xl sm:text-2xl xl:text-3xl 2xl:text-4xl select-none">
       <div className="container py-12 space-y-10 lg:space-y-16 font-playfair text-justify font-medium tracking-wide leading-relaxed">
         <div className="flex flex-col lg:flex-row max-lg:items-center gap-x-20">
           <p>

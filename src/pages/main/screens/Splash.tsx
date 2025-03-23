@@ -22,7 +22,6 @@ const Splash = () => {
             className="max-lg:w-full h-[calc(100vh-(var(--header-height)))] absolute max-lg:inset-0 lg:right-0 lg:top-0 
               object-cover max-lg:blur-[2px]"
           />
-
           <div className="lg:hidden w-full h-[calc(100vh-(var(--header-height)))] absolute inset-0 bg-black opacity-60"></div>
 
           <div className="absolute max-lg:right-9 bottom-40 lg:bottom-0 lg:translate-y-1/2 z-10">
