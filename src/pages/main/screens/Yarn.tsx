@@ -1,7 +1,5 @@
-import React from 'react'
-
-import YarnBrieflyAbout from '../../../components/YarnBrieflyAbout'
-import YarnAbout from '../../../components/YarnAbout'
+import YarnBrieflyAbout from "@/components/YarnBrieflyAbout"
+import YarnAbout from "@/components/YarnAbout"
 
 const Yarn = () => {
   return (

@@ -1,9 +1,9 @@
-import Header from "../../components/Header"
+import Header from "@/components/Header"
 
-import Splash from "./screens/Splash"
-import AboutMe from "./screens/AboutMe"
-import Collection from "./screens/Collection"
-import Yarn from "./screens/Yarn"
+import Splash from "@/pages/main/screens/Splash"
+import AboutMe from "@/pages/main/screens/AboutMe"
+import Collection from "@/pages/main/screens/Collection"
+import Yarn from "@/pages/main/screens/Yarn"
 
 const MainPage = () => {
   return (

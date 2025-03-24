@@ -1,14 +1,16 @@
-import { ReactComponent as SearchIcon } from "../assets/img/icons/search.svg"
-import { ReactComponent as MenuIcon } from "../assets/img/icons/menu.svg"
+import { ReactComponent as SearchIcon } from "@/assets/img/icons/search.svg"
+import { ReactComponent as MenuIcon } from "@/assets/img/icons/menu.svg"
 
 import { Link } from "react-scroll"
 
-const Header = () => {
-  const IS_SMOOTH_SCROLL = true
-  const IS_HASH_SPY = true
-  const HEADER_HEIGHT = 72
-  const DURATION_SCROLL = 500
+import  { 
+  IS_SMOOTH_SCROLL, 
+  IS_HASH_SPY,
+  HEADER_HEIGHT,
+  DURATION_SCROLL
+} from "@/constants"
 
+const Header = () => {
   return (
     <div className="h-[var(--header-height)] sticky top-0 bg-milky z-50">
       <div className="container flex justify-between py-5">
@@ -69,7 +71,7 @@ const Header = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

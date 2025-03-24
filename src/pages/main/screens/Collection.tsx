@@ -1,5 +1,5 @@
-import ProductItem from "../../../components/ProductItem"
-import Button from "../../../components/Button"
+import ProductItem from "@/components/ProductItem"
+import Button from "@/components/Button"
 
 const Collection = () => {
   const items = [

@@ -1,5 +1,3 @@
-import React from 'react'
-
 const AboutMe = () => {
   return (
     <div id="aboutMe" className="bg-white text-xl sm:text-2xl xl:text-3xl 2xl:text-4xl select-none">

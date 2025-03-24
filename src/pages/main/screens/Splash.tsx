@@ -1,4 +1,13 @@
-import Button from "../../../components/Button"
+import { Link } from "react-scroll"
+
+import Button from "@/components/Button"
+
+import  { 
+  IS_SMOOTH_SCROLL, 
+  IS_HASH_SPY,
+  HEADER_HEIGHT,
+  DURATION_SCROLL
+} from "@/constants"
 
 const Splash = () => {
   return (
@@ -25,7 +34,15 @@ const Splash = () => {
           <div className="lg:hidden w-full h-[calc(100vh-(var(--header-height)))] absolute inset-0 bg-black opacity-60"></div>
 
           <div className="absolute max-lg:right-9 bottom-40 lg:bottom-0 lg:translate-y-1/2 z-10">
-            <Button text="Откройте уют" icon="arrow" />
+            <Link
+              to="collection" 
+              smooth={IS_SMOOTH_SCROLL} 
+              duration={DURATION_SCROLL}
+              hashSpy={IS_HASH_SPY}
+              offset={-HEADER_HEIGHT}
+            >
+              <Button text="Откройте уют" icon="arrow" />
+            </Link>
           </div>
 
         </div>
