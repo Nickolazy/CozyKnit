@@ -1,7 +1,8 @@
+import React from "react"
+import { Link } from "react-scroll"
+
 import { ReactComponent as SearchIcon } from "@/assets/img/icons/search.svg"
 import { ReactComponent as MenuIcon } from "@/assets/img/icons/menu.svg"
-
-import { Link } from "react-scroll"
 
 import  { 
   IS_SMOOTH_SCROLL, 

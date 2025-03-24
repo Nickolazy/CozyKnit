@@ -1,6 +1,8 @@
 import ProductItem from "@/components/ProductItem"
 import Button from "@/components/Button"
 
+import { Link } from "react-router-dom"
+
 const Collection = () => {
   const items = [
     {
@@ -77,7 +79,9 @@ const Collection = () => {
         </div>
 
         <div className="w-full flex justify-end">
-          <Button text="Весь каталог" icon="arrow" />
+          <Link to="/collection">
+            <Button text="Весь каталог" icon="arrow" />
+          </Link>
         </div>
       </div>
     </div>
